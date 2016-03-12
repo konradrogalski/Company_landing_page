@@ -1,0 +1,6 @@
+@mixin rwd_imgages($width, $heigt) {
+  background-size: 100% auto;
+  height: 0;
+  padding-bottom: percentage($heigt / $width);
+  display: block;
+}
